@@ -21,8 +21,8 @@ const Home = () => {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/Piyush's RESUME.pdf"
-                download="Piyush's RESUME.pdf"
+                href="/Resume_Piyush.pdf"
+                download="Resume_Piyush.pdf"
               >
                 <Button
                   variant="outline"
