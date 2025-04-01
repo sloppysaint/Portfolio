@@ -50,7 +50,7 @@ const projects = [
     stack: [  { name: "Next.js" }, { name: "Appwrite" }, { name: "Tailwind.CSS" }, { name: "Typescript" }, { name: "Twilio" }, { name: "Sentry" }],
     image: "/carepulse.png",
     backgroundPosition: '50% 30%',
-    live: "care-pulse-rust-rho.vercel.app", 
+    live: "https://care-pulse-rust-rho.vercel.app/", 
     github: "https://github.com/sloppysaint/CarePulse",
   },
   
