@@ -42,6 +42,17 @@ const projects = [
     live: "", 
     github: "https://github.com/sloppysaint/Gibblyweb",
   },
+  {
+    num: '04',
+    category: 'fullstack',
+    title: 'Project 4',
+    description: 'The Patient Management System is a modern healthcare application designed to simplify patient registration, appointment booking, and doctor consultations.',
+    stack: [  { name: "Next.js" }, { name: "Appwrite" }, { name: "Tailwind.CSS" }, { name: "Typescript" }, { name: "Twilio" }, { name: "Sentry" }],
+    image: "/carepulse.png",
+    backgroundPosition: '50% 30%',
+    live: "care-pulse-rust-rho.vercel.app", 
+    github: "https://github.com/sloppysaint/CarePulse",
+  },
   
 ]
 
