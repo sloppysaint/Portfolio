@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "swiper/css";
@@ -13,8 +12,30 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: '01',
-    category: 'frontend',
+    category: 'fullstack',
     title: 'Project 1',
+    description: 'The Patient Management System is a modern healthcare application designed to simplify patient registration, appointment booking, and doctor consultations.',
+    stack: [  { name: "Next.js" }, { name: "Appwrite" }, { name: "Tailwind.CSS" }, { name: "Typescript" }, { name: "Twilio" }, { name: "Sentry" }],
+    image: "/carepulse.png",
+    backgroundPosition: '50% 30%',
+    live: "https://care-pulse-rust-rho.vercel.app/", 
+    github: "https://github.com/sloppysaint/CarePulse",
+  },
+  {
+    num: '02',
+    category: 'fullstack',
+    title: 'Project 2',
+    description: 'Prepwise is a website project designed to help you learn integrating AI models with your apps.',
+    stack: [  { name: "Next.js" }, { name: "Firebase" }, { name: "Tailwind.CSS" }, { name: "Typescript" }, { name: "Vapi AI" }, { name: "Google Gemini" }],
+    image: "/prepwise.png",
+    backgroundPosition: '50% 30%',
+    live: "https://prep-wise-pied.vercel.app//", 
+    github: "https://github.com/sloppysaint/PrepWise",
+  },
+  {
+    num: '03',
+    category: 'frontend',
+    title: 'Project 3',
     description: 'A fully functional Spotify clone built using HTML, CSS, and JavaScript. This project includes features such as music playback, playlists and a responsive design. The aim was to recreate the user interface of Spotify and provide a seamless music streaming experience',
     stack: [{ name: "Html" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/spotify.png",
@@ -22,9 +43,9 @@ const projects = [
     github: "https://github.com/sloppysaint/SPOTIFY",
   },
   {
-    num: '02',
+    num: '04',
     category: 'frontend',
-    title: 'Project 2',
+    title: 'Project 4',
     description: 'The Unity Fund website is designed to help underprivileged communities by facilitating donations and support. The site includes sections like Vision, Mission, and Banner, each dedicated to showcasing our efforts and goals. This project feature a responsive design, ensuring optimal user experience across all devices.',
     stack: [  { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }],
     image: "/unityFund.png",
@@ -32,26 +53,15 @@ const projects = [
     github: "https://github.com/sloppysaint/unityFund",
   },
   {
-    num: '03',
+    num: '05',
     category: 'fullstack',
-    title: 'Project 3',
+    title: 'Project 5',
     description: 'Developed a new user interface for the Gibbly website using React, Vite, Tailwind CSS, Express, and Node.js. The redesigned platform allows teachers to create quizzes and students to play quizzes, enhancing the overall user experience with an intuitive and engaging interface. The backend is powered by Express and Node.js to handle quiz creation, management, and user interactions efficiently.',
     stack: [  { name: "React" }, { name: "Vite" }, { name: "Tailwind.CSS" }, { name: "Nodejs" }],
     image: "/gibbly.png",
     backgroundPosition: '50% 30%',
     live: "", 
     github: "https://github.com/sloppysaint/Gibblyweb",
-  },
-  {
-    num: '04',
-    category: 'fullstack',
-    title: 'Project 4',
-    description: 'The Patient Management System is a modern healthcare application designed to simplify patient registration, appointment booking, and doctor consultations.',
-    stack: [  { name: "Next.js" }, { name: "Appwrite" }, { name: "Tailwind.CSS" }, { name: "Typescript" }, { name: "Twilio" }, { name: "Sentry" }],
-    image: "/carepulse.png",
-    backgroundPosition: '50% 30%',
-    live: "https://care-pulse-rust-rho.vercel.app/", 
-    github: "https://github.com/sloppysaint/CarePulse",
   },
   
 ]
