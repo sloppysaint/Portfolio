@@ -49,4 +49,4 @@ Showcasing my projects and skills as an aspiring software developer.
    If you like this project, please ⭐️ star this repo 😊
    Feel free to fork and use it as a template!
 
-Made with ❤️ using Next.js
+## Made with ❤️ using Next.js
