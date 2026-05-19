@@ -15,14 +15,14 @@ const Home = () => {
               Hello I&apos;m <br /> <span className="text-accent">Piyush Khattar</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I am proficient in various programming languages and technologies. 
-              An aspiring full stack developer currently pursuing Btech in Computer Science from Bharati Vidyapeeth&apos;s College of Engineering (BVCOE).
+              Software developer experienced in building high-performance, scalable applications and AI-powered solutions across web and mobile platforms.
+              Proven track record of delivering real-world products with clean architecture, strong backend systems, and seamless user experiences.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/updated_resume.pdf"
-                download="Piyush_newResume.pdf"
+                href="/piyush_khattar_cv.pdf"
+                download="Piyush's_CV.pdf"
               >
                 <Button
                   variant="outline"
@@ -46,7 +46,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats/>
+      <Stats />
     </section>
   );
 };
